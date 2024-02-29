@@ -5,7 +5,6 @@ const myHeros = ["shaktiman", "naagraj"]
 const myArr2 = new Array(2, 3, 4, 5)
 // console.log(myArr[1]);
 
-
 // Array Methods
 
 // myArr.push(4)
