@@ -47,3 +47,18 @@ console.log(Object.values(msUser));
 console.log(Object.entries(msUser));
 
 console.log(msUser.hasOwnProperty('isLoggedIn'));
+
+
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+const course = {
+    coursename: "Javascript",
+    courseprice: "399",
+    courseInstructor: "Shailesh" 
+}
+
+// course.courseInstructor
+const {courseInstructor: Instructor} = course
+
+console.log(Instructor);
